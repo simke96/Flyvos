@@ -1,0 +1,27 @@
+name: Flyvos
+type: theme
+base theme: classy
+description: 'Theme which you can use to buy tickets'
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - flyvos/global-styling
+  - flyvos/global-scripts
+ckeditor_stylesheets:
+  - css/base/elements.css
+  - css/components/captions.css
+  - css/components/table.css
+  - css/components/text-formatted.css
+regions:
+  header: Header
+  content: Content
+  content_2: 'Content 2'
+  content_3: 'Content 3'
+  content_4: 'Content 4'
+  featured_bottom_left: 'Featured bottom first'
+  featured_bottom_middle: 'Featured bottom second'
+  featured_bottom_right: 'Featured bottom third'
+  footer_left: 'Footer Left'
+  footer_middle: 'Footer Middle'
+  footer_right: 'Footer Right'

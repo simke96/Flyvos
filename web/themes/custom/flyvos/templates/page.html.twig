@@ -1,0 +1,75 @@
+<div class="page">
+    <div class="page_inner">
+    	<header id="header">
+    		<div class="header_inner">
+    			{{ page.header}}
+    		</div>
+    	</header>
+
+    	<main role="main">
+    		<div class="content">
+    			<div class="content_inside">
+    				{{ page.content }}
+    			</div>
+    		</div>
+
+	    	{% if page.content_2 %}
+	    		<div class="content_second">
+	    			<div class="content_second_inside">
+	    				{{ page.content_2 }}
+	    			</div>
+	    		</div>
+	    	{% endif %}
+
+
+	    	{% if page.content_3 %}
+	    		<div class="content_third">
+	    			<div class="content_second_inside">
+	    				{{ page.content_3 }}
+	    			</div>
+	    		</div>
+	    	{% endif %}
+
+
+	    	{% if page.content_4 %}
+	    		<div class="content_fourth">
+	    			<div class="content_second_inside">
+	    				{{ page.content_4 }}
+	    			</div>
+	    		</div>
+	    	{% endif %}
+    	</main>
+
+    	<footer class="footer">
+	    	{% if page.featured_bottom_left or page.featured_bottom_middle or page.featured.bottom_right %}
+	    		<div class="footer-top">
+	    			<div class="featured_bottom_left">
+	    				{{ page.featured_bottom_left }}
+	    			</div>
+	    			<div class="featured_bottom_middle">
+	    				{{ page.featured_bottom_middle }}
+	    			</div>
+	    			<div class="featured_bottom_right">
+	    				{{ page.featured_bottom_right }}
+	    			</div>
+	    		</div>
+	    	{% endif %}
+
+	    	{% if page.footer_left or page.footer_middle or page.footer_right %}
+	    		<div class="footer_bottom">
+	    			<div class="footer_left">
+	    				{{ page.footer_left}}
+	    			</div>
+	    			<div class="footer_middle">
+	    				{{ page.footer_middle}}
+	    			</div>
+	    			<div class="footer_right">
+	    				{{ page.footer_right}}
+	    			</div>
+	    			
+	    		</div>
+	    	{% endif %}
+    	</footer>
+
+    </div>
+</div>

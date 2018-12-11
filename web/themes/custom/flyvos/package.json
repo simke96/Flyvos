@@ -1,0 +1,16 @@
+{
+  "name": "flyvos",
+  "version": "1.0.0",
+  "description": "This file contain installation for this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miljan",
+  "license": "ISC",
+  "dependencies": {
+    "filewatcher": "^3.0.1",
+    "foundation": "^4.2.1-1",
+    "sass": "^1.15.2"
+  }
+}
