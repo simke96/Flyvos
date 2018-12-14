@@ -1,3 +1,7 @@
-div{
-  background-color: gray;
+.page {
+  @include col(10, 12);
+  @include position(block, auto, whitesmoke);
+}
+.page_inner{
+  width: rem(1170);
 }

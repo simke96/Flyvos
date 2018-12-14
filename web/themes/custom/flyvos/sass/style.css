@@ -7023,8 +7023,16 @@ a.thumbnail image {
   -webkit-animation-delay: 0.7s !important;
   animation-delay: 0.7s !important; }
 
+/*Settings*/
+/* Variables */
 /*Partails*/
-div {
-  background-color: gray; }
+.page {
+  width: 83.33333%;
+  display: block;
+  margin: auto;
+  background-color: whitesmoke; }
+
+.page_inner {
+  width: 73.125rem; }
 
 /*# sourceMappingURL=style.css.map */

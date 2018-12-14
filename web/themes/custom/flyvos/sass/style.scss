@@ -3,5 +3,12 @@
 @import "foundation";
 
 
+/*Settings*/
+@import "settings/mixin";
+@import "settings/variables";
+@import "settings/function";
+
+
+
 /*Partails*/
 @import "partials/header";

@@ -1,0 +1,9 @@
+@mixin col($col, $sum){
+  width: percentage($col/$sum);
+}
+
+@mixin position ($display, $margin, $bg){
+  display: $display;
+  margin: $margin;
+  background-color: $bg;
+}
