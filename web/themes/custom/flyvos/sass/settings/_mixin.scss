@@ -2,8 +2,10 @@
   width: percentage($col/$sum);
 }
 
-@mixin position ($display, $margin, $bg){
+@mixin position ($display, $margin){
   display: $display;
   margin: $margin;
-  background-color: $bg;
+}
+@mixin padding ($padd_ver, $padd_hor){
+  padding: $padd_ver $padd_hor;
 }

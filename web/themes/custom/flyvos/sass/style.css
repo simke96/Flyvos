@@ -7026,13 +7026,11 @@ a.thumbnail image {
 /*Settings*/
 /* Variables */
 /*Partails*/
-.page {
-  width: 83.33333%;
-  display: block;
-  margin: auto;
-  background-color: whitesmoke; }
+header {
+  width: 100%; }
 
-.page_inner {
-  width: 73.125rem; }
+.header_inner {
+  width: 100%;
+  padding: 0px 60px; }
 
 /*# sourceMappingURL=style.css.map */

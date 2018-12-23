@@ -1,7 +1,8 @@
-.page {
-  @include col(10, 12);
-  @include position(block, auto, whitesmoke);
+header{
+  width: 100%;
 }
-.page_inner{
-  width: rem(1170);
+.header_inner{
+  @include col(12, 12);
+  @include padding(0px, 60px);
 }
+
